@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+        
+    <wb-module deploy-name="pensionfundmgmt-war-2024.03.0-SNAPSHOT">
+                
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+                
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/target/generated-sources/annotations"/>
+        <dependent-module archiveName="pensionfundmgmt-jar-2024.03.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/pensionfundmgmt-jar/pensionfundmgmt-jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="pensionfundmgmt-rules-2024.03.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/pensionfundmgmt-rules/pensionfundmgmt-rules">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="pensionfundmgmt-data-access-2024.03.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/pensionfundmgmt-data-access/pensionfundmgmt-data-access">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="pensionfundmgmt-common-2024.03.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/pensionfundmgmt-common/pensionfundmgmt-common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="pensionfundmgmt-model-2024.03.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/pensionfundmgmt-model/pensionfundmgmt-model">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+                
+        <property name="context-root" value="pensionfundmgmt-war"/>
+                
+        <property name="java-output-path" value="/pensionfundmgmt-war/target/classes"/>
+            
+    </wb-module>
+    
+</project-modules>

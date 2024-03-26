@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pensionfundmgmt-model" />
+        <module name="pensionfundmgmt-war" />
+        <module name="pensionfundmgmt-data-access" />
+        <module name="pensionfundmgmt-rules" />
+        <module name="pensionfundmgmt-common" />
+        <module name="pensionfundmgmt-jar" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="pensionfundmgmt-common" options="-parameters" />
+      <module name="pensionfundmgmt-data-access" options="-parameters" />
+      <module name="pensionfundmgmt-jar" options="-parameters" />
+      <module name="pensionfundmgmt-model" options="-parameters" />
+      <module name="pensionfundmgmt-rules" options="-parameters" />
+      <module name="pensionfundmgmt-war" options="-parameters" />
+    </option>
+  </component>
+</project>

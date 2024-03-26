@@ -1,0 +1,12 @@
+/.settings/
+/.idea/
+/pensionfundmgmt-common/.settings/
+/pensionfundmgmt-common/bin/
+/pensionfundmgmt-data-access/.settings/
+/pensionfundmgmt-jar/bin/
+/pensionfundmgmt-model/.settings/
+/pensionfundmgmt-model/bin/
+/pensionfundmgmt-rules/.settings/
+/pensionfundmgmt-rules/bin/
+/pensionfundmgmt-war/.settings/
+/pensionfundmgmt-war/bin/

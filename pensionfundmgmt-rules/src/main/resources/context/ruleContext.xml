@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:lang="http://www.springframework.org/schema/lang"
+	xsi:schemaLocation=" http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd 
+	http://www.springframework.org/schema/lang https://www.springframework.org/schema/lang/spring-lang.xsd">
+
+	<lang:groovy id="employee.retrieve.workflow" script-source="classpath:com/pensionfundmgmt/employee/workflow/EmployeeRetrieveWorkflow.groovy" />
+	<lang:groovy id="employee.retrieve.repository" script-source="classpath:com/pensionfundmgmt/employee/repository/EmployeeRetieveRepository.groovy" />
+	
+	<lang:groovy id="aggregate.workflow" script-source="classpath:com/pensionfundmgmt/aggregate/workflow/AggregateWorkflow.groovy" />
+	<lang:groovy id="aggregate.repository" script-source="classpath:com/pensionfundmgmt/aggregate/repository/AggregateRepository.groovy" />
+
+	<lang:groovy id="inforequest.workflow" script-source="classpath:com/pensionfundmgmt/inforequest/workflow/InfoRequestWorkflow.groovy" />
+	<lang:groovy id="inforequest.repository" script-source="classpath:com/pensionfundmgmt/inforequest/repository/InfoRequestRepository.groovy" />
+	<lang:groovy id="personalinfo.repository" script-source="classpath:com/pensionfundmgmt/inforequest/repository/PersonalInfoRepository.groovy" />
+	<lang:groovy id="bankscheme.repository" script-source="classpath:com/pensionfundmgmt/inforequest/repository/BankSchemeRepository.groovy" />
+	<lang:groovy id="bankinfo.repository" script-source="classpath:com/pensionfundmgmt/inforequest/repository/BankInfoRepository.groovy" />
+	<lang:groovy id="schemainfo.repository" script-source="classpath:com/pensionfundmgmt/inforequest/repository/SchemeInfoRepository.groovy" />
+
+
+</beans>
